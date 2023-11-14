@@ -15,8 +15,6 @@ const ErrorPage: FC<ErrorPageProps> = ({errorCode}) => {
     let errorCodeStr : string = errorCode.toString()
     let error: object = errors[errorCodeStr][0]
 
-    console.log(error)
-
     document.title = "CoralMC - " + error["title"];
 
     return (
