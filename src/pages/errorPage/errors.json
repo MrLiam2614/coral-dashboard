@@ -1,0 +1,24 @@
+{
+  "default": "500",
+  "404": [
+    {
+      "title": "Page not Found",
+      "name": "Not Found",
+      "description": "La pagina che stai cercando non esiste"
+    }
+  ],
+  "500": [
+    {
+      "title": "Internal Server Error",
+      "name": "Internal Server Error",
+      "description": "Si è verificato un errore interno"
+    }
+  ],
+  "0": [
+    {
+      "title": "Unknown Error",
+      "name": "Unknown Error",
+      "description": "Si è verificato un errore sconosciuto"
+    }
+  ]
+}
