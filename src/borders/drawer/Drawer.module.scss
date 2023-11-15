@@ -1,6 +1,9 @@
 @import "styles/theme";
 
 .mainDrawer{
+    position: sticky;
+    top: 0;
+    left: 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

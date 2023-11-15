@@ -1,0 +1,39 @@
+@import "styles/theme";
+
+.sectionBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border: 2px solid $third-color;
+  background-color: $secondary-color;
+  border-radius: 10px;
+  margin: 0 10px;
+  top: 0;
+
+  img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    filter: invert(80%);
+  }
+
+  .mainCategory {
+
+  }
+
+  .secondaryCategory {
+
+  }
+  .separator{
+    margin: 0 10px;
+    font-weight: bold;
+  }
+
+  .clickable{
+    cursor: pointer;
+  }
+}

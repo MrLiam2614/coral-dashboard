@@ -1,7 +1,7 @@
 import {FC} from "react";
 import styles from "./Drawer.module.scss";
 
-import content from "./DrawerContent.json";
+import content from "config/DrawerContent.json";
 
 import DrawerDropdownButton from "component/drawer/DrawerDropdownButton";
 import DrawerButton from "component/drawer/DrawerButton";
@@ -15,7 +15,7 @@ interface DrawerProps { currentPage: string }
 const Drawer: FC<DrawerProps> = ({currentPage}) => {
     let sectionOneButtons: DrawerButton[] = [];
 
-    let buildDrawerElement = (type: string, element: object, active : boolean = false) => {
+    let buildDrawerElement = (type: string, element: object, active : boolean = false, subPage:string = "") => {
         switch (type) {
             case "separator":
                 let drawerSeparator: DrawerButton = new DrawerSeparator();
@@ -24,7 +24,7 @@ const Drawer: FC<DrawerProps> = ({currentPage}) => {
                 let drawerDropdownButton: DrawerButton = new DrawerDropdownButton(element["icon"], element["title"]);
                 let drawerDropdownButtonElements: object = element["items"];
                 for (let i = 0; i < Object.keys(drawerDropdownButtonElements).length; i++) {
-                    drawerDropdownButton.addSubButton(buildDrawerElement("button", drawerDropdownButtonElements[i]));
+                    drawerDropdownButton.addSubButton(buildDrawerElement("button", drawerDropdownButtonElements[i], drawerDropdownButtonElements[i]["id"] === subPage));
                 }
                 drawerDropdownButton.active = active;
                 return drawerDropdownButton
@@ -47,7 +47,10 @@ const Drawer: FC<DrawerProps> = ({currentPage}) => {
                 let drawerElement: object = content[drawerString];
 
                 let drawerType: string = drawerElement["type"].toLowerCase();
-                let drawerButton: DrawerButton = buildDrawerElement(drawerType, drawerElement, drawerString === currentPage);
+                let mainPage: string = currentPage.split("/")[0];
+                let subPage: string = currentPage.split("/")[1];
+
+                let drawerButton: DrawerButton = buildDrawerElement(drawerType, drawerElement, drawerString === mainPage, subPage);
                 if (drawerButton !== undefined) {
                     sectionOneButtons.push(drawerButton);
                 }

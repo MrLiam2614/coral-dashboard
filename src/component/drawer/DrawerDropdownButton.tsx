@@ -48,8 +48,8 @@ class DrawerDropdownButton extends DrawerButton {
         let activeDrawer : any = this.active ? styles.active : '';
         return (
             <>
-                <div className={activeDrawer + ' ' + styles.dropdownElement}>
-                    <div className={styles.buttonElement} onClick={this.switchDropdown} id={"main_" + this.ruid}>
+                <div className={styles.dropdownElement}>
+                    <div className={activeDrawer + ' ' + styles.buttonElement} onClick={this.switchDropdown} id={"main_" + this.ruid}>
                         <img src={this.image} alt={this.name}/>
                         <div className={styles.buttonText}>
                             {this.name} <i className="fa fa-caret-down"></i>

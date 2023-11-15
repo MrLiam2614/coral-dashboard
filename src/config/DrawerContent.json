@@ -3,13 +3,13 @@
     "type": "button",
     "title": "Control Panel",
     "icon": "https://static.mrliam2614.net/coralmc/images/icons/house-solid.svg",
-    "redirect": "/"
+    "redirect": "#"
   },
   "variables": {
     "type": "button",
     "title": "Variables",
     "icon": "https://static.mrliam2614.net/coralmc/images/icons/toolbox-solid.svg",
-    "redirect": "/variables"
+    "redirect": "#variables"
   },
   "settings": {
     "type": "dropdown",
@@ -17,14 +17,16 @@
     "icon": "https://static.mrliam2614.net/coralmc/images/icons/flask-solid.svg",
     "items": [
       {
+        "id": "general",
         "title": "General",
         "icon": "https://static.mrliam2614.net/coralmc/images/icons/flask-solid.svg",
-        "redirect": "/settings/general"
+        "redirect": "#settings/general"
       },
       {
+        "id": "apperance",
         "title": "Appearance",
         "icon": "https://static.mrliam2614.net/coralmc/images/icons/flask-solid.svg",
-        "redirect": "/settings/apperance"
+        "redirect": "#settings/apperance"
       }
     ]
   },
@@ -34,14 +36,16 @@
     "icon": "https://static.mrliam2614.net/coralmc/images/icons/tags-solid.svg",
     "items": [
       {
+        "id": "disc1",
         "title": "Discountssss 1",
         "icon": "https://static.mrliam2614.net/coralmc/images/icons/tags-solid.svg",
-        "redirect": "/discounts/disc1"
+        "redirect": "#discounts/disc1"
       },
       {
+        "id": "disc2",
         "title": "Discountssss 2",
         "icon": "https://static.mrliam2614.net/coralmc/images/icons/tags-solid.svg",
-        "redirect": "/discounts/disc2"
+        "redirect": "#discounts/disc2"
       }
     ]
   },
@@ -51,14 +55,16 @@
     "icon": "https://static.mrliam2614.net/coralmc/images/icons/desktop-solid.svg",
     "items": [
       {
+        "id": "page1",
         "title": "Page 1",
         "icon": "https://static.mrliam2614.net/coralmc/images/icons/desktop-solid.svg",
-        "redirect": "/pages/page1"
+        "redirect": "#pages/page1"
       },
       {
+        "id": "page2",
         "title": "Page 2",
         "icon": "https://static.mrliam2614.net/coralmc/images/icons/desktop-solid.svg",
-        "redirect": "/pages/page2"
+        "redirect": "#pages/page2"
       }
     ]
   },
@@ -69,18 +75,18 @@
     "type": "button",
     "title": "Docs",
     "icon": "https://static.mrliam2614.net/coralmc/images/icons/clipboard-list-solid.svg",
-    "redirect": "/docs"
+    "redirect": "#docs"
   },
   "dashboard": {
     "type": "button",
     "title": "Dashboard",
     "icon": "https://static.mrliam2614.net/coralmc/images/icons/link-solid.svg",
-    "redirect": "/dashboard"
+    "redirect": "#dashboard"
   },
   "help": {
     "type": "button",
     "title": "Help",
     "icon": "https://static.mrliam2614.net/coralmc/images/icons/globe-solid.svg",
-    "redirect": "/help"
+    "redirect": "#help"
   }
 }

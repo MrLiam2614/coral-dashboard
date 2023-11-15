@@ -1,15 +1,14 @@
 import React, {FC} from "react";
 import styles from "./HomePage.module.scss";
-import Drawer from "../../borders/drawer/Drawer";
+import Redirect from "../../utils/Redirect";
 
-interface HomePageProps {currentPage: string}
-
-const HomePage: FC<HomePageProps> = ({currentPage}) => {
+const HomePage: FC = () => {
 
     return (
-        <>
-            <Drawer currentPage={currentPage}/>
-        </>
+        <div className={styles.homeContent}>
+            <h1>CoralMC</h1>
+            <button onClick={(e) => Redirect.open(e, "/panel")}>Pannello Administratore</button>
+        </div>
         )
 
 }
