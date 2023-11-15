@@ -1,6 +1,7 @@
 @import "styles/theme";
 
 .completed {
+  white-space: nowrap;
   border: 1px solid #00b700;
   color: #00b700;
   padding: 5px 10px;
@@ -9,6 +10,7 @@
 }
 
 .pending {
+  white-space: nowrap;
   border: 1px solid #e19800;
   color: #e19800;
   padding: 5px 10px;
@@ -17,6 +19,7 @@
 }
 
 .inProgress {
+  white-space: nowrap;
   border: 1px solid #9f00ed;
   color: #9f00ed;
   padding: 5px 10px;

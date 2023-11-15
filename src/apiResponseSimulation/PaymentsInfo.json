@@ -2,14 +2,14 @@
   "content": [
     {
       "monthly": {
-        "value": 200,
+        "value": 200.000,
         "average": 13,
-        "currency": "€"
+        "currency": "EUR"
       },
       "allTime": {
-        "value": 200,
+        "value": 200.000,
         "average": 13,
-        "currency": "€"
+        "currency": "EUR"
       }
     }
   ]
