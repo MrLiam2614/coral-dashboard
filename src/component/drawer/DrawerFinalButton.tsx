@@ -2,6 +2,7 @@ import {FC} from "react";
 import DrawerButton from "component/drawer/DrawerButton";
 import styles from "./DrawerButton.module.scss";
 import Redirect from "utils/Redirect";
+import React from "react";
 
 class DrawerFinalButton extends DrawerButton{
     link: string;

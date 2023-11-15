@@ -2,15 +2,16 @@ import {FC} from "react";
 import styles from "./ErrorPage.module.scss";
 
 import errors from "./errors.json";
+import React from "react";
 
-type ErrorPageProps = { errorCode: number }
+interface ErrorPageProps { errorCode: number }
 
 const ErrorPage: FC<ErrorPageProps> = ({errorCode}) => {
     //* ERROR CODES *//
     // 404 - Page Not Found
     // 500 - Internal Server Error
     // 0 - Unknown Error
-    if(errorCode === null || errorCode === undefined) errorCode = errors["default"];
+    if(errorCode === null || errorCode === undefined) errorCode = Number(errors["default"]);
 
     let errorCodeStr : string = errorCode.toString()
     let error: object = errors[errorCodeStr][0]

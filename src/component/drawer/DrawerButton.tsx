@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./Drawer.module.scss";
 
 class DrawerButton{
@@ -9,6 +10,12 @@ class DrawerButton{
         this.image = image;
         this.name = name;
         this.active = false;
+    }
+
+    addSubButton(drawerButton: DrawerButton){}
+
+    render(){
+        return (<> </>)
     }
 }
 

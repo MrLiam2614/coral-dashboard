@@ -7,11 +7,12 @@ import DrawerDropdownButton from "component/drawer/DrawerDropdownButton";
 import DrawerButton from "component/drawer/DrawerButton";
 import DrawerFinalButton from "component/drawer/DrawerFinalButton";
 import DrawerSeparator from "../../component/drawer/DrawerSeparator";
+import React from "react";
 
 
-type DrawerProps = { currentPage: string }
+interface DrawerProps { currentPage: string }
 
-const Drawer: FC = ({currentPage}) => {
+const Drawer: FC<DrawerProps> = ({currentPage}) => {
     let sectionOneButtons: DrawerButton[] = [];
 
     let buildDrawerElement = (type: string, element: object, active : boolean = false) => {

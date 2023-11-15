@@ -3,7 +3,7 @@
     "type": "button",
     "title": "Control Panel",
     "icon": "https://static.mrliam2614.net/coralmc/images/icons/house-solid.svg",
-    "redirect": "/home"
+    "redirect": "/"
   },
   "variables": {
     "type": "button",
