@@ -1,0 +1,30 @@
+@import "styles/theme";
+
+.mainDrawer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 240px;
+    height: 100vh;
+    background-color: $secondary-color;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    align-items: center;
+    overflow-x: hidden;
+    padding: 0 10px;
+    .title{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 50px auto 20px auto;
+    }
+    hr{
+        width: calc(100% + 10px * 2);
+        margin-left: -10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mainDrawer{
+        width: 40%;
+    }
+}

@@ -1,0 +1,86 @@
+{
+  "controlpanel": {
+    "type": "button",
+    "title": "Control Panel",
+    "icon": "https://static.mrliam2614.net/coralmc/images/icons/house-solid.svg",
+    "redirect": "/home"
+  },
+  "variables": {
+    "type": "button",
+    "title": "Variables",
+    "icon": "https://static.mrliam2614.net/coralmc/images/icons/toolbox-solid.svg",
+    "redirect": "/variables"
+  },
+  "settings": {
+    "type": "dropdown",
+    "title": "Settings",
+    "icon": "https://static.mrliam2614.net/coralmc/images/icons/flask-solid.svg",
+    "items": [
+      {
+        "title": "General",
+        "icon": "https://static.mrliam2614.net/coralmc/images/icons/flask-solid.svg",
+        "redirect": "/settings/general"
+      },
+      {
+        "title": "Appearance",
+        "icon": "https://static.mrliam2614.net/coralmc/images/icons/flask-solid.svg",
+        "redirect": "/settings/apperance"
+      }
+    ]
+  },
+  "discounts": {
+    "type": "dropdown",
+    "title": "Discounts",
+    "icon": "https://static.mrliam2614.net/coralmc/images/icons/tags-solid.svg",
+    "items": [
+      {
+        "title": "Discountssss 1",
+        "icon": "https://static.mrliam2614.net/coralmc/images/icons/tags-solid.svg",
+        "redirect": "/discounts/disc1"
+      },
+      {
+        "title": "Discountssss 2",
+        "icon": "https://static.mrliam2614.net/coralmc/images/icons/tags-solid.svg",
+        "redirect": "/discounts/disc2"
+      }
+    ]
+  },
+  "pages": {
+    "type": "dropdown",
+    "title": "Pages",
+    "icon": "https://static.mrliam2614.net/coralmc/images/icons/desktop-solid.svg",
+    "items": [
+      {
+        "title": "Page 1",
+        "icon": "https://static.mrliam2614.net/coralmc/images/icons/desktop-solid.svg",
+        "redirect": "/pages/page1"
+      },
+      {
+        "title": "Page 2",
+        "icon": "https://static.mrliam2614.net/coralmc/images/icons/desktop-solid.svg",
+        "redirect": "/pages/page2"
+      }
+    ]
+  },
+  "separator1": {
+    "type": "separator"
+  },
+  "docs": {
+    "type": "button",
+    "title": "Docs",
+    "icon": "https://static.mrliam2614.net/coralmc/images/icons/clipboard-list-solid.svg",
+    "redirect": "/docs"
+  },
+  "dashboard": {
+    "type": "button",
+    "title": "Dashboard",
+    "icon": "https://static.mrliam2614.net/coralmc/images/icons/link-solid.svg",
+    "redirect": "/dashboard"
+  },
+  "help": {
+    "type": "button",
+    "title": "Help",
+    "icon": "https://static.mrliam2614.net/coralmc/images/icons/globe-solid.svg",
+    "redirect": "/help"
+  }
+}
