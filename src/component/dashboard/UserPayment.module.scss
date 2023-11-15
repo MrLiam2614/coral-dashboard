@@ -1,0 +1,25 @@
+@import "styles/theme";
+
+.completed {
+  border: 1px solid #00b700;
+  color: #00b700;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: $third-color;
+}
+
+.pending {
+  border: 1px solid #e19800;
+  color: #e19800;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: $third-color;
+}
+
+.inProgress {
+  border: 1px solid #9f00ed;
+  color: #9f00ed;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: $third-color;
+}

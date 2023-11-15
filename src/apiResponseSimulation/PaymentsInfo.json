@@ -1,0 +1,16 @@
+{
+  "content": [
+    {
+      "monthly": {
+        "value": 200,
+        "average": 13,
+        "currency": "€"
+      },
+      "allTime": {
+        "value": 200,
+        "average": 13,
+        "currency": "€"
+      }
+    }
+  ]
+}

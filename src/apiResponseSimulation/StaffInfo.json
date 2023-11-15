@@ -1,0 +1,59 @@
+{
+  "content": [
+    {
+      "uid": "irrelevantForExample",
+      "username": "FEDRICOSCHI",
+      "role": "Sr. Admin"
+    },
+    {
+      "uid": "irrelevantForExample",
+      "username": "Feryzz",
+      "role": "Owner"
+    },
+    {
+      "uid": "irrelevantForExample",
+      "username": "Cinquanta",
+      "role": "Owner"
+    },
+    {
+      "uid": "irrelevantForExample",
+      "username": "NotAffected",
+      "role": "Sr. Admin"
+    },
+    {
+      "uid": "irrelevantForExample",
+      "username": "Ytnoos",
+      "role": "Owner"
+    },
+    {
+      "uid": "irrelevantForExample",
+      "username": "MattiaB22",
+      "role": "Sr. Admin"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "empty": true,
+      "sorted": false,
+      "unsorted": true
+    },
+    "offset": 0,
+    "pageNumber": 0,
+    "pageSize": 14,
+    "unpaged": false,
+    "paged": true
+  },
+  "totalPages": 3,
+  "totalElements": 14,
+  "last": false,
+  "size": 14,
+  "number": 0,
+  "sort": {
+    "empty": true,
+    "sorted": false,
+    "unsorted": true
+  },
+  "numberOfElements": 14,
+  "first": true,
+  "empty": false
+}

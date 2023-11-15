@@ -1,0 +1,70 @@
+{
+  "content": [
+    {
+      "id": 12312,
+      "user": {
+        "uid": "irrelevantForExample",
+        "username": "FEDRICOSCHI"
+      },
+      "date": "2023-05-20T10:34:12.40503",
+      "amount": 120,
+      "currency": "€",
+      "status": "completed"
+    },
+    {
+      "id": 12311,
+      "user": {
+        "uid": "irrelevantForExample",
+        "username": "Feryzz"
+      },
+      "date": "2023-05-20T09:12:43.40503",
+      "amount": 15,
+      "currency": "€",
+      "status": "completed"
+    },
+    {
+      "id": 12310,
+      "user": {
+        "uid": "irrelevantForExample",
+        "username": "Cinquanta"
+      },
+      "date": "2023-05-20T04:44:02.40503",
+      "amount": 27,
+      "currency": "€",
+      "status": "pending"
+    },
+    {
+      "id": 12309,
+      "user": {
+        "uid": "irrelevantForExample",
+        "username": "NotAffected"
+      },
+      "date": "2023-05-19T23:57:52.40503",
+      "amount": 59,
+      "currency": "€",
+      "status": "Inprogress"
+    },
+    {
+      "id": 12308,
+      "user": {
+        "uid": "irrelevantForExample",
+        "username": "Ytnoos"
+      },
+      "date": "2023-05-19T23:30:59.40503",
+      "amount": 12,
+      "currency": "€",
+      "status": "completed"
+    },
+    {
+      "id": 12307,
+      "user": {
+        "uid": "irrelevantForExample",
+        "username": "MattiaB22"
+      },
+      "date": "2023-05-19T22:19:27.40503",
+      "amount": 33,
+      "currency": "€",
+      "status": "completed"
+    }
+  ]
+}
