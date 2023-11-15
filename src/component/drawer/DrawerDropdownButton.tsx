@@ -52,7 +52,7 @@ class DrawerDropdownButton extends DrawerButton {
                     <div className={activeDrawer + ' ' + styles.buttonElement} onClick={this.switchDropdown} id={"main_" + this.ruid}>
                         <img src={this.image} alt={this.name}/>
                         <div className={styles.buttonText}>
-                            {this.name} <i className="fa fa-caret-down"></i>
+                            {this.name}
                         </div>
                     </div>
                     <div className={styles.dropdownContent} id={this.ruid}>

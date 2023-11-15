@@ -72,3 +72,18 @@
 .active{
   background-color: $third-color;
 }
+@media only screen and (max-width: 740px) {
+  .dropdownElement{
+    width: fit-content;
+  }
+  .buttonElement{
+    width: fit-content;
+    float: left;
+  }
+  .buttonElement:after{
+    left: 30px;
+  }
+  .buttonText{
+      display: none;
+    }
+}

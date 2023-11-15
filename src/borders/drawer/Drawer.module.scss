@@ -26,8 +26,9 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 740px) {
     .mainDrawer{
-        width: 40%;
+        width: fit-content;
+        flex-wrap: nowrap;
     }
 }
